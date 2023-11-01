@@ -5,6 +5,8 @@ import Home from './pages/Home'
 import Calculator from './pages/Calculator'
 import History from './pages/History'
 import { AnimatePresence } from "framer-motion";
+import MethodList from './pages/MethodList'
+import ExpenseTracker from './pages/ExpenseTracker'
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
             <Route path='/' element={<Home></Home>} />
             <Route path='/calculator' element={<Calculator></Calculator>} />
             <Route path='/history' element={<History></History>} />
+            <Route path='/methods' element={<MethodList></MethodList>} />
+            <Route path='/expense-tracker' element={<ExpenseTracker></ExpenseTracker>} />
           </Routes>
         </div>
       </AnimatePresence>
